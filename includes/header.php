@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="Assets/css/style.css">
     <link rel="stylesheet" href="Assets/css/carrosel.css">
     <link rel="stylesheet" href="Assets/css/filmes.css">
+    <link rel="stylesheet" href="Assets/css/usuario.css">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
                 <li><a href="#"><i class="bi bi-search"></i></a></li>
                 <li><a href="#"><i class="bi bi-heart"></i></a></li>
                 <li><a href="#"><i class="bi bi-cart3"></i></a></li>
-                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+                <li><a href="usuario.php"><i class="bi bi-person-circle"></i></a></li>
             </ul>
 
             <!-- Hamborgar -->
