@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -18,18 +20,19 @@
     <link rel="stylesheet" href="Assets/css/carrosel.css">
     <link rel="stylesheet" href="Assets/css/filmes.css">
     <link rel="stylesheet" href="Assets/css/usuario.css">
+    <link rel="stylesheet" href="Assets/css/login.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="menu_perfil">
             <a href="#" class="logo">
                 <h1>Cine Box</h1>
             </a>
             <ul class="menu">
                 <li><a href="./index.php">Inicio</a></li>
                 <li><a href="./listarfilmes.php">Filmes</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="./sobre.php">Sobre</a></li>
             </ul>
 
             <ul class="menu-icones">
@@ -47,9 +50,9 @@
                 <button class="fechar">
                     <i class="bi bi-x"></i>
                 </button>
-                <a href="index.html">Inicio</a>
-                <a href="#">Filmes</a>
-                <a href="#">Sobre</a>
+                <a href="index.php">Inicio</a>
+                <a href="listarfilmes.php">Filmes</a>
+                <a href="sobre.php">Sobre</a>
             </div>
         </nav>
     </header>
