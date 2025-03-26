@@ -11,15 +11,15 @@ $resultado = $banco->query($select)->fetchALL();
 //echo '<pre>';
 //var_dump ($resultado);
 ?>  
-    <?php foreach($resultado as $lista) { ?>
+    <?php foreach($resultadoConsultaFilmes as $filmes) { ?>
     <div class="row desc-filme">
         <div class="col-12 col-lg-2 col-sm-12 col-md-12 text-center">
-            <img src="./assets/img/poster/<?= $lista ['poster'] ?>" alt="" class="desc-foto">
+            <img src="./assets/img/poster/<?= $filmes ['poster'] ?>" alt="" class="desc-foto">
         </div>
         <div class="col-12 col-lg-8 col-sm-12 col-md-12 mt-3">
-            <h3 class="title"><?= $lista ['nome']?></h3>
+            <h3 class="title"><?= $filmes ['nome']?></h3>
             <p class="desc-descricao">
-                Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            <?= $filmes ['descricao']?>
             </p>
         </div>
         <div class="col-12 col-lg-2 col-sm-12 col-md-12 desc-btn p-3">
