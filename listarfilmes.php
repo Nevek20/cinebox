@@ -2,9 +2,13 @@
 $titulo = '';
 include './includes/header.php';
 require './classes/filmes.php';
+require './classes/generos.php';
 
 $filmes = new Filmes();
 $dadosFilmes = $filmes->exibirListaFilmes();
 
-include './includes/filme_lista.php';
+$generos = new Generos();
+$dadosGeneros = $generos->consultarListaGeneros();
+
+include './includes/filmes_filtro.php';
 include './includes/footer.php';
