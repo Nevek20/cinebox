@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="Assets/css/filmes.css">
     <link rel="stylesheet" href="Assets/css/usuario.css">
     <link rel="stylesheet" href="Assets/css/login.css">
+    <link rel="stylesheet" href="Assets/css/detalhes.css">
+    <link rel="stylesheet" href="Assets/css/filtro.css">
 </head>
 
 <body>

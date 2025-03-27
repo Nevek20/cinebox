@@ -2,7 +2,7 @@
     <main class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 my-4">
-                <img src="<?= img('poster/' . $dados['poster']) ?>" alt="poster Jedi Survivor" class="foto ">
+                <img src="<?= ('poster/' . $dados['poster']) ?>" alt="poster Jedi Survivor" class="foto ">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 detalhe-produto py-5">
                 <h1 class="titulo-jogo"><?= $dados['nome'] ?></h1>
