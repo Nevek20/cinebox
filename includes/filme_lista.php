@@ -3,6 +3,7 @@
     <main class="container">
         <div class="row">
             <?php foreach ($dadosFilmes as $value) {
+                $generoFilme = $generos->consultarGeneroByIdFilme($value['id']);
                 include './includes/filme_card.php';
             } ?>
         </div>

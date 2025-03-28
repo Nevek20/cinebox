@@ -8,7 +8,7 @@
                             <p class="descricao"><?= $value['descricao'] ?></p>
                         </figcaption>
                         <span class="genero">
-                            <?php foreach ($generosFilmes as $value2) {?>
+                            <?php foreach ($generoFilme as $value2) {?>
                             <label style="background-color:#<?= $value2['cor']?>;"><?= $value2['nome'] ?></label>
                             <?php } ?>
                         </span>

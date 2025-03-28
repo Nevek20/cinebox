@@ -10,7 +10,7 @@ $filmes = new Filmes();
 $dadosFilmes = $filmes->exibirListaFilmes(8);
 
 $generos = new Generos();
-$dadosGeneros = $generos->consultarListaGeneros();
+// $dadosGeneros = $generos->consultarListaGeneros();
 
 include './includes/filme_lista.php';
 
